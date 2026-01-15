@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root { --color-bg: #0c0a09; --color-bg-secondary: #1c1917; --color-text: #fafaf9; --color-text-secondary: #a8a29e; --color-accent: #d4a574; --color-accent-hover: #b8972e; --color-border: #292524; }
+
+body { background: var(--color-bg); color: var(--color-text); }
