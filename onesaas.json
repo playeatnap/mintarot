@@ -1,0 +1,34 @@
+{
+  "$schema": "https://onesaas.kr/schema/onesaas.json",
+  "schemaVersion": "1.0.0",
+  "project": {
+    "id": "mintarot",
+    "name": "mintarot",
+    "slug": "mintarot",
+    "company": "mintarot",
+    "email": "support@mintarot.com",
+    "createdAt": "2026-01-15T08:42:12.147Z"
+  },
+  "template": {
+    "id": "basic",
+    "version": "1.0.0"
+  },
+  "theme": {
+    "id": "luxury"
+  },
+  "features": {
+    "auth": {
+      "providers": [
+        "google",
+        "github"
+      ]
+    },
+    "payment": {
+      "enabled": false,
+      "provider": "none"
+    },
+    "vercel": {
+      "options": []
+    }
+  }
+}
